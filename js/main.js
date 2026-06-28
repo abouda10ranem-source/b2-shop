@@ -99,20 +99,20 @@
 
   if (statsSection) observer.observe(statsSection);
 
-  // === Gallery Images (real Instagram products from @b2__shop_vetemment) ===
+  // === Gallery Images ===
   const galleryImages = [
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.2885-15/482006071_17941080104967758_1473240740957647758_n.jpg', cat: 'homme', label: 'Jean Diesel' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/729578961_17997137870967758_8333459578623706970_n.jpg', cat: 'collection', label: 'Nouvelle Arrivage' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730463929_17996989898967758_55202870687828460_n.jpg', cat: 'homme', label: 'Collection' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730045686_17996843909967758_2617382734085417286_n.jpg', cat: 'homme', label: 'Style Tendance' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727159096_17996695808967758_5029176312718669528_n.jpg', cat: 'collection', label: 'Look du Jour' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/728951284_17996546735967758_16463228073791349_n.jpg', cat: 'shop', label: 'Nouveauté' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/723961729_17996261276967758_8553865686091458932_n.jpg', cat: 'homme', label: 'ASICS Collection' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727235865_17995956344967758_7090710050161862794_n.jpg', cat: 'collection', label: 'Promotions' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/722286344_17995805228967758_7657968703257658041_n.jpg', cat: 'shop', label: 'B2 Shop' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.71878-15/726294873_2838433889687558_53583195970935051_n.jpg', cat: 'homme', label: 'Salomon' },
-    { src: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.71878-15/721642430_1307155661628886_1703678441588063690_n.jpg', cat: 'collection', label: 'Short Jean' },
-    { src: 'https://instagram.falg7-1.fna.fbcdn.net/v/t51.71878-15/723704347_1909686116361797_1744085672139441047_n.jpg', cat: 'shop', label: 'Nike' },
+    { src: 'images/01.jpg', cat: 'homme', label: 'Style Urbain' },
+    { src: 'images/02.jpg', cat: 'collection', label: 'Collection Été' },
+    { src: 'images/03.jpg', cat: 'homme', label: 'Look Tendance' },
+    { src: 'images/04.jpg', cat: 'homme', label: 'Casual Chic' },
+    { src: 'images/05.jpg', cat: 'collection', label: 'Nouvelle Collection' },
+    { src: 'images/06.jpg', cat: 'shop', label: 'Notre Boutique' },
+    { src: 'images/07.jpg', cat: 'homme', label: 'Sneakers' },
+    { src: 'images/08.jpg', cat: 'collection', label: 'Accessoires' },
+    { src: 'images/09.jpg', cat: 'shop', label: 'Showroom' },
+    { src: 'images/10.jpg', cat: 'homme', label: 'Mode Homme' },
+    { src: 'images/11.jpg', cat: 'collection', label: 'Tenues' },
+    { src: 'images/12.jpg', cat: 'shop', label: 'Collections' },
   ];
 
   const galleryGrid = document.getElementById('galleryGrid');
@@ -146,16 +146,16 @@
     });
   });
 
-  // === Products (using real product images from Instagram) ===
+  // === Products ===
   const products = [
-    { name: 'Jean Diesel', desc: 'Qualité premium, coupe parfaite', price: '6,500 DA', badge: 'Nouveau', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.2885-15/482006071_17941080104967758_1473240740957647758_n.jpg' },
-    { name: 'Nouvelle Arrivage', desc: 'Collection été 2026', price: 'À partir de 3,500 DA', badge: 'Tendance', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/729578961_17997137870967758_8333459578623706970_n.jpg' },
-    { name: 'Look Tendance', desc: 'Style urbain et décontracté', price: '4,900 DA', badge: 'Populaire', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730463929_17996989898967758_55202870687828460_n.jpg' },
-    { name: 'Ensemble Streetwear', desc: 'Look élégant et moderne', price: '8,200 DA', badge: 'Nouveau', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730045686_17996843909967758_2617382734085417286_n.jpg' },
-    { name: 'Style du Jour', desc: 'Casual chic', price: '5,500 DA', badge: 'Tendance', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727159096_17996695808967758_5029176312718669528_n.jpg' },
-    { name: 'Nouveauté', desc: 'Pièce unique', price: '7,200 DA', badge: 'Exclusif', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/728951284_17996546735967758_16463228073791349_n.jpg' },
-    { name: 'ASICS Sport', desc: 'Chaussures sport lifestyle', price: '9,500 DA', badge: 'Sport', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/723961729_17996261276967758_8553865686091458932_n.jpg' },
-    { name: 'Promo Spéciale', desc: 'Offre limitée', price: '2,900 DA', badge: 'Promo', img: 'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727235865_17995956344967758_7090710050161862794_n.jpg' },
+    { name: 'Veste Premium', desc: 'Style élégant, qualité supérieure', price: '6,500 DA', badge: 'Nouveau', img: 'images/01.jpg' },
+    { name: 'Collection Été', desc: 'Tendances 2026', price: 'À partir de 3,500 DA', badge: 'Tendance', img: 'images/02.jpg' },
+    { name: 'Look Casual', desc: 'Style urbain et décontracté', price: '4,900 DA', badge: 'Populaire', img: 'images/03.jpg' },
+    { name: 'Ensemble Chic', desc: 'Look moderne et élégant', price: '8,200 DA', badge: 'Nouveau', img: 'images/04.jpg' },
+    { name: 'T-Shirt Design', desc: 'Coton bio, confort absolu', price: '2,500 DA', badge: 'Tendance', img: 'images/05.jpg' },
+    { name: 'Chemise Zara', desc: 'Coupe moderne', price: '6,200 DA', badge: 'Populaire', img: 'images/06.jpg' },
+    { name: 'Sneakers Premium', desc: 'Édition limitée', price: '8,900 DA', badge: 'Exclusif', img: 'images/07.jpg' },
+    { name: 'Accessoires', desc: 'Ceintures, sacs et plus', price: '1,500 DA', badge: 'Nouveau', img: 'images/08.jpg' },
   ];
 
   const productsGrid = document.getElementById('productsGrid');
@@ -173,20 +173,11 @@
     </div>
   `).join('');
 
-  // === Instagram Feed (real posts from @b2__shop_vetemment) ===
+  // === Instagram Feed ===
   const instaPosts = [
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.2885-15/482006071_17941080104967758_1473240740957647758_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/729578961_17997137870967758_8333459578623706970_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730463929_17996989898967758_55202870687828460_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/730045686_17996843909967758_2617382734085417286_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727159096_17996695808967758_5029176312718669528_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/728951284_17996546735967758_16463228073791349_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/723961729_17996261276967758_8553865686091458932_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/727235865_17995956344967758_7090710050161862794_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.82787-15/722286344_17995805228967758_7657968703257658041_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.71878-15/726294873_2838433889687558_53583195970935051_n.jpg',
-    'https://instagram.falg7-6.fna.fbcdn.net/v/t51.71878-15/721642430_1307155661628886_1703678441588063690_n.jpg',
-    'https://instagram.falg7-1.fna.fbcdn.net/v/t51.71878-15/723704347_1909686116361797_1744085672139441047_n.jpg',
+    'images/01.jpg', 'images/02.jpg', 'images/03.jpg', 'images/04.jpg',
+    'images/05.jpg', 'images/06.jpg', 'images/07.jpg', 'images/08.jpg',
+    'images/09.jpg', 'images/10.jpg', 'images/11.jpg', 'images/12.jpg',
   ];
 
   const instaGrid = document.getElementById('instaGrid');
